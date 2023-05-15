@@ -14,8 +14,19 @@ rep=0
 tam = random.randint (10,20)
 print (tam)
 def llenarLista(tam,rango):
-    lista=[]
-    lista=[random.randrange(rango) for i in range(tam)]
-    return lista
-l1=llenarLista(5,20)
-print(l1)
+    for i in range (tam):
+        num=random.randrange (100)
+    lista.append (num)
+print (lista )
+
+for i in lista:
+        sum+=i
+        cont+=1
+if i > mayor:
+        mayor= i
+if i < menor:
+        menor = i
+if i in lista:
+        sum/cont
+print ("La suma es: ",sum)
+
