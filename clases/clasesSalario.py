@@ -4,4 +4,4 @@ class Salario:
             self.__cargo=cargo
             self.__salario=salario
         def nombre(self):
-        
+    
